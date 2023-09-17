@@ -1,6 +1,7 @@
 import dotenv from 'dotenv';
 import express from 'express';
 import { SignJWT, jwtVerify } from 'jose';
+import appCliente from './clientes.js';
 dotenv.config();
 const appExpress = express();
 // https://jwt.io/

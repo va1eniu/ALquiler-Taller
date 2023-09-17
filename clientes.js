@@ -1,5 +1,5 @@
 import {Router} from 'express';
-import proxyUser from '../middleware/proxyUser.js';
+import  proxyUser  from './middleware/proxyUser.js';
 const appCliente = Router();
 
 appCliente.get("/", proxyUser, (req,res)=>{
